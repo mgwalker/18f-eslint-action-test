@@ -9,6 +9,6 @@ jobs:
     container: node:14
     steps:
       - uses: actions/checkout@af513c7a016048ae468971c52ed77d9562c7c819
-      - uses: 18f/18f-eslint-action@525eca7
+      - uses: 18f/18f-eslint-action@951d2b0
         with:
-          path: src
+          working-directory: src
