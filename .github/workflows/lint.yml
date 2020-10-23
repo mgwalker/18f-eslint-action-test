@@ -3,7 +3,7 @@ name: 18f eslint
 on: [push]
 
 jobs:
-  18f-eslint:
+  lint:
     name: 18F ESLint
     runs-on: ubuntu-latest
     container: node:14
