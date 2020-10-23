@@ -1,2 +1,3 @@
-let bob = "Hello"
- //messed up comment
+const bob = "Hello"
+console.log(bob);
+ // messed up comment
