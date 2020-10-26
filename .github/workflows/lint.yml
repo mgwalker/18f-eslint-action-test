@@ -12,3 +12,4 @@ jobs:
       - uses: 18f/18f-eslint-action@7f73ad6
         with:
           working-directory: src
+          only-changed: true
