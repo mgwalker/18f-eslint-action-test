@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     container: node:14
     steps:
-      - uses: actions/checkout@1120c3b
-      - uses: 18f/18f-eslint-action@c3070ca
+      - uses: actions/checkout@af513c7a
+      - uses: 18f/18f-eslint-action@1120c3b
         with:
           working-directory: src
