@@ -9,7 +9,7 @@ jobs:
     container: node:14
     steps:
       - uses: actions/checkout@af513c7a
-      - uses: 18f/18f-eslint-action@7f73ad6
+      - uses: 18f/18f-eslint-action@f02f352
         with:
           working-directory: src
           only-changed: "true"
